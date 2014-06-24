@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE575C04192D3733000EDF7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C03192D3733000EDF7C /* Foundation.framework */; };
+		EE575C06192D3733000EDF7C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C05192D3733000EDF7C /* CoreGraphics.framework */; };
+		EE575C08192D3733000EDF7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C07192D3733000EDF7C /* UIKit.framework */; };
+		EE575C0E192D3733000EDF7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE575C0C192D3733000EDF7C /* InfoPlist.strings */; };
+		EE575C10192D3733000EDF7C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C0F192D3733000EDF7C /* main.m */; };
+		EE575C14192D3733000EDF7C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C13192D3733000EDF7C /* AppDelegate.m */; };
+		EE575C16192D3733000EDF7C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE575C15192D3733000EDF7C /* Images.xcassets */; };
+		EE575C1D192D3733000EDF7C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C1C192D3733000EDF7C /* XCTest.framework */; };
+		EE575C1E192D3733000EDF7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C03192D3733000EDF7C /* Foundation.framework */; };
+		EE575C1F192D3733000EDF7C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C07192D3733000EDF7C /* UIKit.framework */; };
+		EE575C27192D3733000EDF7C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EE575C25192D3733000EDF7C /* InfoPlist.strings */; };
+		EE575C29192D3733000EDF7C /* OlaUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C28192D3733000EDF7C /* OlaUploaderTests.m */; };
+		EE575C3F192D37A0000EDF7C /* TNSexyImageUploadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C36192D37A0000EDF7C /* TNSexyImageUploadProgress.m */; };
+		EE575C40192D37A0000EDF7C /* OlapicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C39192D37A0000EDF7C /* OlapicNavigationController.m */; };
+		EE575C41192D37A0000EDF7C /* Olapic.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C3B192D37A0000EDF7C /* Olapic.m */; };
+		EE575C42192D37A0000EDF7C /* OlapicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE575C3E192D37A0000EDF7C /* OlapicViewController.m */; };
+		EE575C44192D37ED000EDF7C /* OlapicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C43192D37ED000EDF7C /* OlapicSDK.framework */; };
+		EE575C46192D37F7000EDF7C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE575C45192D37F7000EDF7C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE575C20192D3733000EDF7C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE575BF8192D3733000EDF7C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE575BFF192D3733000EDF7C;
+			remoteInfo = OlaUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE575C00192D3733000EDF7C /* OlaUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE575C03192D3733000EDF7C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE575C05192D3733000EDF7C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE575C07192D3733000EDF7C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EE575C0B192D3733000EDF7C /* OlaUploader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaUploader-Info.plist"; sourceTree = "<group>"; };
+		EE575C0D192D3733000EDF7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE575C0F192D3733000EDF7C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE575C11192D3733000EDF7C /* OlaUploader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaUploader-Prefix.pch"; sourceTree = "<group>"; };
+		EE575C12192D3733000EDF7C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE575C13192D3733000EDF7C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE575C15192D3733000EDF7C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EE575C1B192D3733000EDF7C /* OlaUploaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaUploaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE575C1C192D3733000EDF7C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EE575C24192D3733000EDF7C /* OlaUploaderTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaUploaderTests-Info.plist"; sourceTree = "<group>"; };
+		EE575C26192D3733000EDF7C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EE575C28192D3733000EDF7C /* OlaUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaUploaderTests.m; sourceTree = "<group>"; };
+		EE575C35192D37A0000EDF7C /* TNSexyImageUploadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNSexyImageUploadProgress.h; sourceTree = "<group>"; };
+		EE575C36192D37A0000EDF7C /* TNSexyImageUploadProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNSexyImageUploadProgress.m; sourceTree = "<group>"; };
+		EE575C38192D37A0000EDF7C /* OlapicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicNavigationController.h; sourceTree = "<group>"; };
+		EE575C39192D37A0000EDF7C /* OlapicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicNavigationController.m; sourceTree = "<group>"; };
+		EE575C3A192D37A0000EDF7C /* Olapic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Olapic.h; sourceTree = "<group>"; };
+		EE575C3B192D37A0000EDF7C /* Olapic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Olapic.m; sourceTree = "<group>"; };
+		EE575C3D192D37A0000EDF7C /* OlapicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicViewController.h; sourceTree = "<group>"; };
+		EE575C3E192D37A0000EDF7C /* OlapicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicViewController.m; sourceTree = "<group>"; };
+		EE575C43192D37ED000EDF7C /* OlapicSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OlapicSDK.framework; path = ../../dist/OlapicSDK.framework; sourceTree = "<group>"; };
+		EE575C45192D37F7000EDF7C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE575BFD192D3733000EDF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C46192D37F7000EDF7C /* CoreLocation.framework in Frameworks */,
+				EE575C06192D3733000EDF7C /* CoreGraphics.framework in Frameworks */,
+				EE575C44192D37ED000EDF7C /* OlapicSDK.framework in Frameworks */,
+				EE575C08192D3733000EDF7C /* UIKit.framework in Frameworks */,
+				EE575C04192D3733000EDF7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE575C18192D3733000EDF7C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C1D192D3733000EDF7C /* XCTest.framework in Frameworks */,
+				EE575C1F192D3733000EDF7C /* UIKit.framework in Frameworks */,
+				EE575C1E192D3733000EDF7C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE575BF7192D3733000EDF7C = {
+			isa = PBXGroup;
+			children = (
+				EE575C09192D3733000EDF7C /* OlaUploader */,
+				EE575C22192D3733000EDF7C /* OlaUploaderTests */,
+				EE575C02192D3733000EDF7C /* Frameworks */,
+				EE575C01192D3733000EDF7C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE575C01192D3733000EDF7C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C00192D3733000EDF7C /* OlaUploader.app */,
+				EE575C1B192D3733000EDF7C /* OlaUploaderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE575C02192D3733000EDF7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C45192D37F7000EDF7C /* CoreLocation.framework */,
+				EE575C43192D37ED000EDF7C /* OlapicSDK.framework */,
+				EE575C03192D3733000EDF7C /* Foundation.framework */,
+				EE575C05192D3733000EDF7C /* CoreGraphics.framework */,
+				EE575C07192D3733000EDF7C /* UIKit.framework */,
+				EE575C1C192D3733000EDF7C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE575C09192D3733000EDF7C /* OlaUploader */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C32192D37A0000EDF7C /* Olapic */,
+				EE575C12192D3733000EDF7C /* AppDelegate.h */,
+				EE575C13192D3733000EDF7C /* AppDelegate.m */,
+				EE575C15192D3733000EDF7C /* Images.xcassets */,
+				EE575C0A192D3733000EDF7C /* Supporting Files */,
+			);
+			path = OlaUploader;
+			sourceTree = "<group>";
+		};
+		EE575C0A192D3733000EDF7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C0B192D3733000EDF7C /* OlaUploader-Info.plist */,
+				EE575C0C192D3733000EDF7C /* InfoPlist.strings */,
+				EE575C0F192D3733000EDF7C /* main.m */,
+				EE575C11192D3733000EDF7C /* OlaUploader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE575C22192D3733000EDF7C /* OlaUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C28192D3733000EDF7C /* OlaUploaderTests.m */,
+				EE575C23192D3733000EDF7C /* Supporting Files */,
+			);
+			path = OlaUploaderTests;
+			sourceTree = "<group>";
+		};
+		EE575C23192D3733000EDF7C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C24192D3733000EDF7C /* OlaUploaderTests-Info.plist */,
+				EE575C25192D3733000EDF7C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE575C32192D37A0000EDF7C /* Olapic */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C33192D37A0000EDF7C /* Libs */,
+				EE575C37192D37A0000EDF7C /* NavigationController */,
+				EE575C3C192D37A0000EDF7C /* ViewController */,
+				EE575C3A192D37A0000EDF7C /* Olapic.h */,
+				EE575C3B192D37A0000EDF7C /* Olapic.m */,
+			);
+			path = Olapic;
+			sourceTree = "<group>";
+		};
+		EE575C33192D37A0000EDF7C /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C34192D37A0000EDF7C /* TNSexyImageUploadProgress */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		EE575C34192D37A0000EDF7C /* TNSexyImageUploadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C35192D37A0000EDF7C /* TNSexyImageUploadProgress.h */,
+				EE575C36192D37A0000EDF7C /* TNSexyImageUploadProgress.m */,
+			);
+			path = TNSexyImageUploadProgress;
+			sourceTree = "<group>";
+		};
+		EE575C37192D37A0000EDF7C /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C38192D37A0000EDF7C /* OlapicNavigationController.h */,
+				EE575C39192D37A0000EDF7C /* OlapicNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		EE575C3C192D37A0000EDF7C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EE575C3D192D37A0000EDF7C /* OlapicViewController.h */,
+				EE575C3E192D37A0000EDF7C /* OlapicViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE575BFF192D3733000EDF7C /* OlaUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE575C2C192D3733000EDF7C /* Build configuration list for PBXNativeTarget "OlaUploader" */;
+			buildPhases = (
+				EE575BFC192D3733000EDF7C /* Sources */,
+				EE575BFD192D3733000EDF7C /* Frameworks */,
+				EE575BFE192D3733000EDF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaUploader;
+			productName = OlaUploader;
+			productReference = EE575C00192D3733000EDF7C /* OlaUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE575C1A192D3733000EDF7C /* OlaUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE575C2F192D3733000EDF7C /* Build configuration list for PBXNativeTarget "OlaUploaderTests" */;
+			buildPhases = (
+				EE575C17192D3733000EDF7C /* Sources */,
+				EE575C18192D3733000EDF7C /* Frameworks */,
+				EE575C19192D3733000EDF7C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE575C21192D3733000EDF7C /* PBXTargetDependency */,
+			);
+			name = OlaUploaderTests;
+			productName = OlaUploaderTests;
+			productReference = EE575C1B192D3733000EDF7C /* OlaUploaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE575BF8192D3733000EDF7C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Olapic, Inc.";
+				TargetAttributes = {
+					EE575C1A192D3733000EDF7C = {
+						TestTargetID = EE575BFF192D3733000EDF7C;
+					};
+				};
+			};
+			buildConfigurationList = EE575BFB192D3733000EDF7C /* Build configuration list for PBXProject "OlaUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE575BF7192D3733000EDF7C;
+			productRefGroup = EE575C01192D3733000EDF7C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE575BFF192D3733000EDF7C /* OlaUploader */,
+				EE575C1A192D3733000EDF7C /* OlaUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE575BFE192D3733000EDF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C0E192D3733000EDF7C /* InfoPlist.strings in Resources */,
+				EE575C16192D3733000EDF7C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE575C19192D3733000EDF7C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C27192D3733000EDF7C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE575BFC192D3733000EDF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C14192D3733000EDF7C /* AppDelegate.m in Sources */,
+				EE575C3F192D37A0000EDF7C /* TNSexyImageUploadProgress.m in Sources */,
+				EE575C10192D3733000EDF7C /* main.m in Sources */,
+				EE575C41192D37A0000EDF7C /* Olapic.m in Sources */,
+				EE575C42192D37A0000EDF7C /* OlapicViewController.m in Sources */,
+				EE575C40192D37A0000EDF7C /* OlapicNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE575C17192D3733000EDF7C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE575C29192D3733000EDF7C /* OlaUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE575C21192D3733000EDF7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE575BFF192D3733000EDF7C /* OlaUploader */;
+			targetProxy = EE575C20192D3733000EDF7C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE575C0C192D3733000EDF7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE575C0D192D3733000EDF7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EE575C25192D3733000EDF7C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE575C26192D3733000EDF7C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE575C2A192D3733000EDF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE575C2B192D3733000EDF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE575C2D192D3733000EDF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../../dist/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaUploader/OlaUploader-Prefix.pch";
+				INFOPLIST_FILE = "OlaUploader/OlaUploader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EE575C2E192D3733000EDF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/**",
+					"$(SRCROOT)/../../dist/**",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaUploader/OlaUploader-Prefix.pch";
+				INFOPLIST_FILE = "OlaUploader/OlaUploader-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		EE575C30192D3733000EDF7C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaUploader.app/OlaUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaUploader/OlaUploader-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OlaUploaderTests/OlaUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE575C31192D3733000EDF7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaUploader.app/OlaUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaUploader/OlaUploader-Prefix.pch";
+				INFOPLIST_FILE = "OlaUploaderTests/OlaUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE575BFB192D3733000EDF7C /* Build configuration list for PBXProject "OlaUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE575C2A192D3733000EDF7C /* Debug */,
+				EE575C2B192D3733000EDF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE575C2C192D3733000EDF7C /* Build configuration list for PBXNativeTarget "OlaUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE575C2D192D3733000EDF7C /* Debug */,
+				EE575C2E192D3733000EDF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE575C2F192D3733000EDF7C /* Build configuration list for PBXNativeTarget "OlaUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE575C30192D3733000EDF7C /* Debug */,
+				EE575C31192D3733000EDF7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE575BF8192D3733000EDF7C /* Project object */;
+}

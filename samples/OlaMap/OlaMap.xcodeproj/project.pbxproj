@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B347F6CD1924F7C5000AFC70 /* olapic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B347F6CC1924F7C5000AFC70 /* olapic.jpg */; };
+		B347F6D5192502A3000AFC70 /* JPSThumbnailAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = B347F6D1192502A3000AFC70 /* JPSThumbnailAnnotation.m */; };
+		B347F6D6192502A3000AFC70 /* JPSThumbnailAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = B347F6D3192502A3000AFC70 /* JPSThumbnailAnnotationView.m */; };
+		B347F6D7192502A3000AFC70 /* JPSThumnail.m in Sources */ = {isa = PBXBuildFile; fileRef = B347F6D4192502A3000AFC70 /* JPSThumnail.m */; };
+		B3A42830192CFD8E009C3B53 /* OlapicUploaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3A4282F192CFD8E009C3B53 /* OlapicUploaderView.m */; };
+		B3BBF8D4192E4A8D0019489C /* dots.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BBF8D2192E4A8D0019489C /* dots.png */; };
+		B3BBF8D5192E4A8D0019489C /* dots@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B3BBF8D3192E4A8D0019489C /* dots@2x.png */; };
+		B3C9618C1924076600EB9118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9618B1924076600EB9118 /* Foundation.framework */; };
+		B3C9618E1924076600EB9118 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9618D1924076600EB9118 /* CoreGraphics.framework */; };
+		B3C961901924076600EB9118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9618F1924076600EB9118 /* UIKit.framework */; };
+		B3C961961924076600EB9118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C961941924076600EB9118 /* InfoPlist.strings */; };
+		B3C961981924076600EB9118 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961971924076600EB9118 /* main.m */; };
+		B3C9619C1924076600EB9118 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C9619B1924076600EB9118 /* AppDelegate.m */; };
+		B3C9619E1924076600EB9118 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3C9619D1924076600EB9118 /* Images.xcassets */; };
+		B3C961A51924076600EB9118 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C961A41924076600EB9118 /* XCTest.framework */; };
+		B3C961A61924076600EB9118 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9618B1924076600EB9118 /* Foundation.framework */; };
+		B3C961A71924076600EB9118 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C9618F1924076600EB9118 /* UIKit.framework */; };
+		B3C961AF1924076600EB9118 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B3C961AD1924076600EB9118 /* InfoPlist.strings */; };
+		B3C961B11924076600EB9118 /* OlaMapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961B01924076600EB9118 /* OlaMapTests.m */; };
+		B3C961BD1924077F00EB9118 /* OlapicSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C961BC1924077F00EB9118 /* OlapicSDK.framework */; };
+		B3C961CC1924079300EB9118 /* OlapicAsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961C11924079300EB9118 /* OlapicAsyncImageView.m */; };
+		B3C961CD1924079300EB9118 /* OlapicNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961C41924079300EB9118 /* OlapicNavigationController.m */; };
+		B3C961CE1924079300EB9118 /* Olapic.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961C61924079300EB9118 /* Olapic.m */; };
+		B3C961CF1924079300EB9118 /* OlapicMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961C91924079300EB9118 /* OlapicMediaViewController.m */; };
+		B3C961D01924079300EB9118 /* OlapicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961CB1924079300EB9118 /* OlapicViewController.m */; };
+		B3C961D71924089000EB9118 /* OlapicMapObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C961D61924089000EB9118 /* OlapicMapObject.m */; };
+		B3C961DC1924092E00EB9118 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3C961DB1924092E00EB9118 /* MapKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B3C961A81924076600EB9118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B3C961801924076600EB9118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B3C961871924076600EB9118;
+			remoteInfo = OlaMap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B347F6CC1924F7C5000AFC70 /* olapic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = olapic.jpg; sourceTree = "<group>"; };
+		B347F6CF192502A3000AFC70 /* JPSThumbnail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnail.h; sourceTree = "<group>"; };
+		B347F6D0192502A3000AFC70 /* JPSThumbnailAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotation.h; sourceTree = "<group>"; };
+		B347F6D1192502A3000AFC70 /* JPSThumbnailAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotation.m; sourceTree = "<group>"; };
+		B347F6D2192502A3000AFC70 /* JPSThumbnailAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSThumbnailAnnotationView.h; sourceTree = "<group>"; };
+		B347F6D3192502A3000AFC70 /* JPSThumbnailAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumbnailAnnotationView.m; sourceTree = "<group>"; };
+		B347F6D4192502A3000AFC70 /* JPSThumnail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSThumnail.m; sourceTree = "<group>"; };
+		B3A4282E192CFD8E009C3B53 /* OlapicUploaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicUploaderView.h; sourceTree = "<group>"; };
+		B3A4282F192CFD8E009C3B53 /* OlapicUploaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicUploaderView.m; sourceTree = "<group>"; };
+		B3BBF8D2192E4A8D0019489C /* dots.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dots.png; sourceTree = "<group>"; };
+		B3BBF8D3192E4A8D0019489C /* dots@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dots@2x.png"; sourceTree = "<group>"; };
+		B3C961881924076600EB9118 /* OlaMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OlaMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C9618B1924076600EB9118 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B3C9618D1924076600EB9118 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B3C9618F1924076600EB9118 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B3C961931924076600EB9118 /* OlaMap-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaMap-Info.plist"; sourceTree = "<group>"; };
+		B3C961951924076600EB9118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3C961971924076600EB9118 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B3C961991924076600EB9118 /* OlaMap-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OlaMap-Prefix.pch"; sourceTree = "<group>"; };
+		B3C9619A1924076600EB9118 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B3C9619B1924076600EB9118 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B3C9619D1924076600EB9118 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B3C961A31924076600EB9118 /* OlaMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlaMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C961A41924076600EB9118 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B3C961AC1924076600EB9118 /* OlaMapTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlaMapTests-Info.plist"; sourceTree = "<group>"; };
+		B3C961AE1924076600EB9118 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B3C961B01924076600EB9118 /* OlaMapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlaMapTests.m; sourceTree = "<group>"; };
+		B3C961BC1924077F00EB9118 /* OlapicSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OlapicSDK.framework; path = ../../dist/OlapicSDK.framework; sourceTree = "<group>"; };
+		B3C961C01924079300EB9118 /* OlapicAsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicAsyncImageView.h; sourceTree = "<group>"; };
+		B3C961C11924079300EB9118 /* OlapicAsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicAsyncImageView.m; sourceTree = "<group>"; };
+		B3C961C31924079300EB9118 /* OlapicNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicNavigationController.h; sourceTree = "<group>"; };
+		B3C961C41924079300EB9118 /* OlapicNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicNavigationController.m; sourceTree = "<group>"; };
+		B3C961C51924079300EB9118 /* Olapic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Olapic.h; sourceTree = "<group>"; };
+		B3C961C61924079300EB9118 /* Olapic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Olapic.m; sourceTree = "<group>"; };
+		B3C961C81924079300EB9118 /* OlapicMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicMediaViewController.h; sourceTree = "<group>"; };
+		B3C961C91924079300EB9118 /* OlapicMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicMediaViewController.m; sourceTree = "<group>"; };
+		B3C961CA1924079300EB9118 /* OlapicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OlapicViewController.h; sourceTree = "<group>"; };
+		B3C961CB1924079300EB9118 /* OlapicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OlapicViewController.m; sourceTree = "<group>"; };
+		B3C961D51924089000EB9118 /* OlapicMapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OlapicMapObject.h; path = Map/OlapicMapObject.h; sourceTree = "<group>"; };
+		B3C961D61924089000EB9118 /* OlapicMapObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OlapicMapObject.m; path = Map/OlapicMapObject.m; sourceTree = "<group>"; };
+		B3C961DB1924092E00EB9118 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B3C961851924076600EB9118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961DC1924092E00EB9118 /* MapKit.framework in Frameworks */,
+				B3C9618E1924076600EB9118 /* CoreGraphics.framework in Frameworks */,
+				B3C961BD1924077F00EB9118 /* OlapicSDK.framework in Frameworks */,
+				B3C961901924076600EB9118 /* UIKit.framework in Frameworks */,
+				B3C9618C1924076600EB9118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C961A01924076600EB9118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961A51924076600EB9118 /* XCTest.framework in Frameworks */,
+				B3C961A71924076600EB9118 /* UIKit.framework in Frameworks */,
+				B3C961A61924076600EB9118 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B347F6CE192502A3000AFC70 /* JPSThumbnailAnnotation */ = {
+			isa = PBXGroup;
+			children = (
+				B347F6CF192502A3000AFC70 /* JPSThumbnail.h */,
+				B347F6D0192502A3000AFC70 /* JPSThumbnailAnnotation.h */,
+				B347F6D1192502A3000AFC70 /* JPSThumbnailAnnotation.m */,
+				B347F6D2192502A3000AFC70 /* JPSThumbnailAnnotationView.h */,
+				B347F6D3192502A3000AFC70 /* JPSThumbnailAnnotationView.m */,
+				B347F6D4192502A3000AFC70 /* JPSThumnail.m */,
+			);
+			path = JPSThumbnailAnnotation;
+			sourceTree = "<group>";
+		};
+		B3A4282D192CFD8E009C3B53 /* Uploader */ = {
+			isa = PBXGroup;
+			children = (
+				B3A4282E192CFD8E009C3B53 /* OlapicUploaderView.h */,
+				B3A4282F192CFD8E009C3B53 /* OlapicUploaderView.m */,
+			);
+			path = Uploader;
+			sourceTree = "<group>";
+		};
+		B3C9617F1924076600EB9118 = {
+			isa = PBXGroup;
+			children = (
+				B3C961911924076600EB9118 /* OlaMap */,
+				B3C961AA1924076600EB9118 /* OlaMapTests */,
+				B3C9618A1924076600EB9118 /* Frameworks */,
+				B3C961891924076600EB9118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B3C961891924076600EB9118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961881924076600EB9118 /* OlaMap.app */,
+				B3C961A31924076600EB9118 /* OlaMapTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B3C9618A1924076600EB9118 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961DB1924092E00EB9118 /* MapKit.framework */,
+				B3C961BC1924077F00EB9118 /* OlapicSDK.framework */,
+				B3C9618B1924076600EB9118 /* Foundation.framework */,
+				B3C9618D1924076600EB9118 /* CoreGraphics.framework */,
+				B3C9618F1924076600EB9118 /* UIKit.framework */,
+				B3C961A41924076600EB9118 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B3C961911924076600EB9118 /* OlaMap */ = {
+			isa = PBXGroup;
+			children = (
+				B347F6CE192502A3000AFC70 /* JPSThumbnailAnnotation */,
+				B3C961BE1924079300EB9118 /* Olapic */,
+				B3C9619A1924076600EB9118 /* AppDelegate.h */,
+				B3C9619B1924076600EB9118 /* AppDelegate.m */,
+				B3C9619D1924076600EB9118 /* Images.xcassets */,
+				B3C961921924076600EB9118 /* Supporting Files */,
+			);
+			path = OlaMap;
+			sourceTree = "<group>";
+		};
+		B3C961921924076600EB9118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3BBF8D2192E4A8D0019489C /* dots.png */,
+				B3BBF8D3192E4A8D0019489C /* dots@2x.png */,
+				B347F6CC1924F7C5000AFC70 /* olapic.jpg */,
+				B3C961931924076600EB9118 /* OlaMap-Info.plist */,
+				B3C961941924076600EB9118 /* InfoPlist.strings */,
+				B3C961971924076600EB9118 /* main.m */,
+				B3C961991924076600EB9118 /* OlaMap-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3C961AA1924076600EB9118 /* OlaMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961B01924076600EB9118 /* OlaMapTests.m */,
+				B3C961AB1924076600EB9118 /* Supporting Files */,
+			);
+			path = OlaMapTests;
+			sourceTree = "<group>";
+		};
+		B3C961AB1924076600EB9118 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961AC1924076600EB9118 /* OlaMapTests-Info.plist */,
+				B3C961AD1924076600EB9118 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B3C961BE1924079300EB9118 /* Olapic */ = {
+			isa = PBXGroup;
+			children = (
+				B3A4282D192CFD8E009C3B53 /* Uploader */,
+				B3C961D11924083200EB9118 /* Map */,
+				B3C961BF1924079300EB9118 /* Image */,
+				B3C961C21924079300EB9118 /* NavigationController */,
+				B3C961C71924079300EB9118 /* ViewController */,
+				B3C961C51924079300EB9118 /* Olapic.h */,
+				B3C961C61924079300EB9118 /* Olapic.m */,
+			);
+			path = Olapic;
+			sourceTree = "<group>";
+		};
+		B3C961BF1924079300EB9118 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961C01924079300EB9118 /* OlapicAsyncImageView.h */,
+				B3C961C11924079300EB9118 /* OlapicAsyncImageView.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		B3C961C21924079300EB9118 /* NavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961C31924079300EB9118 /* OlapicNavigationController.h */,
+				B3C961C41924079300EB9118 /* OlapicNavigationController.m */,
+			);
+			path = NavigationController;
+			sourceTree = "<group>";
+		};
+		B3C961C71924079300EB9118 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961C81924079300EB9118 /* OlapicMediaViewController.h */,
+				B3C961C91924079300EB9118 /* OlapicMediaViewController.m */,
+				B3C961CA1924079300EB9118 /* OlapicViewController.h */,
+				B3C961CB1924079300EB9118 /* OlapicViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B3C961D11924083200EB9118 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B3C961D51924089000EB9118 /* OlapicMapObject.h */,
+				B3C961D61924089000EB9118 /* OlapicMapObject.m */,
+			);
+			name = Map;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B3C961871924076600EB9118 /* OlaMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C961B41924076600EB9118 /* Build configuration list for PBXNativeTarget "OlaMap" */;
+			buildPhases = (
+				B3C961841924076600EB9118 /* Sources */,
+				B3C961851924076600EB9118 /* Frameworks */,
+				B3C961861924076600EB9118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OlaMap;
+			productName = OlaMap;
+			productReference = B3C961881924076600EB9118 /* OlaMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B3C961A21924076600EB9118 /* OlaMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3C961B71924076600EB9118 /* Build configuration list for PBXNativeTarget "OlaMapTests" */;
+			buildPhases = (
+				B3C9619F1924076600EB9118 /* Sources */,
+				B3C961A01924076600EB9118 /* Frameworks */,
+				B3C961A11924076600EB9118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B3C961A91924076600EB9118 /* PBXTargetDependency */,
+			);
+			name = OlaMapTests;
+			productName = OlaMapTests;
+			productReference = B3C961A31924076600EB9118 /* OlaMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B3C961801924076600EB9118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Olapic;
+				TargetAttributes = {
+					B3C961A21924076600EB9118 = {
+						TestTargetID = B3C961871924076600EB9118;
+					};
+				};
+			};
+			buildConfigurationList = B3C961831924076600EB9118 /* Build configuration list for PBXProject "OlaMap" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B3C9617F1924076600EB9118;
+			productRefGroup = B3C961891924076600EB9118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B3C961871924076600EB9118 /* OlaMap */,
+				B3C961A21924076600EB9118 /* OlaMapTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B3C961861924076600EB9118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961961924076600EB9118 /* InfoPlist.strings in Resources */,
+				B3BBF8D4192E4A8D0019489C /* dots.png in Resources */,
+				B347F6CD1924F7C5000AFC70 /* olapic.jpg in Resources */,
+				B3C9619E1924076600EB9118 /* Images.xcassets in Resources */,
+				B3BBF8D5192E4A8D0019489C /* dots@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C961A11924076600EB9118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961AF1924076600EB9118 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B3C961841924076600EB9118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961D71924089000EB9118 /* OlapicMapObject.m in Sources */,
+				B3C961D01924079300EB9118 /* OlapicViewController.m in Sources */,
+				B347F6D6192502A3000AFC70 /* JPSThumbnailAnnotationView.m in Sources */,
+				B3C9619C1924076600EB9118 /* AppDelegate.m in Sources */,
+				B3C961981924076600EB9118 /* main.m in Sources */,
+				B3C961CC1924079300EB9118 /* OlapicAsyncImageView.m in Sources */,
+				B347F6D7192502A3000AFC70 /* JPSThumnail.m in Sources */,
+				B3C961CF1924079300EB9118 /* OlapicMediaViewController.m in Sources */,
+				B347F6D5192502A3000AFC70 /* JPSThumbnailAnnotation.m in Sources */,
+				B3C961CE1924079300EB9118 /* Olapic.m in Sources */,
+				B3A42830192CFD8E009C3B53 /* OlapicUploaderView.m in Sources */,
+				B3C961CD1924079300EB9118 /* OlapicNavigationController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3C9619F1924076600EB9118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3C961B11924076600EB9118 /* OlaMapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B3C961A91924076600EB9118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B3C961871924076600EB9118 /* OlaMap */;
+			targetProxy = B3C961A81924076600EB9118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B3C961941924076600EB9118 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C961951924076600EB9118 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B3C961AD1924076600EB9118 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B3C961AE1924076600EB9118 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B3C961B21924076600EB9118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3C961B31924076600EB9118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B3C961B51924076600EB9118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../dist/**",
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMap/OlaMap-Prefix.pch";
+				INFOPLIST_FILE = "OlaMap/OlaMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B3C961B61924076600EB9118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SRCROOT)/../../dist/**",
+					"$(SRCROOT)/**",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMap/OlaMap-Prefix.pch";
+				INFOPLIST_FILE = "OlaMap/OlaMap-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B3C961B81924076600EB9118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaMap.app/OlaMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMap/OlaMap-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OlaMapTests/OlaMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B3C961B91924076600EB9118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OlaMap.app/OlaMap";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OlaMap/OlaMap-Prefix.pch";
+				INFOPLIST_FILE = "OlaMapTests/OlaMapTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B3C961831924076600EB9118 /* Build configuration list for PBXProject "OlaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C961B21924076600EB9118 /* Debug */,
+				B3C961B31924076600EB9118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C961B41924076600EB9118 /* Build configuration list for PBXNativeTarget "OlaMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C961B51924076600EB9118 /* Debug */,
+				B3C961B61924076600EB9118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3C961B71924076600EB9118 /* Build configuration list for PBXNativeTarget "OlaMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B3C961B81924076600EB9118 /* Debug */,
+				B3C961B91924076600EB9118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B3C961801924076600EB9118 /* Project object */;
+}

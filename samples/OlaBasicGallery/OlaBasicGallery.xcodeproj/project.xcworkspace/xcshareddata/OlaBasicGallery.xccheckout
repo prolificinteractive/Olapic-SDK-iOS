@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3F46ACF4-3836-4F7D-882D-42FCE8607576</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OlaBasicGallery</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4AC85F19-0CF7-4ACB-84BD-37A522092FA9</key>
+		<string>ssh://github.com/Olapic/Olapic-SDK-iOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>samples/OlaBasicGallery/OlaBasicGallery.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4AC85F19-0CF7-4ACB-84BD-37A522092FA9</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/Olapic/Olapic-SDK-iOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4AC85F19-0CF7-4ACB-84BD-37A522092FA9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4AC85F19-0CF7-4ACB-84BD-37A522092FA9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Olapic-SDK-iOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>
